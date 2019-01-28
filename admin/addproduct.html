@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add New Product</title>
+	<link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
+</head>
+<body style="font-family: 'Actor'">
+	<section style="background-color: gray ; padding: 100px;">
+	<h1 align="center" style="color: orange">Add New Product to Store</h1>
+	<form style="display: block; padding: 20px; height: 500px; width: 300px; border: 1px solid black; border-radius: 25px;" action="addproduct.php" method="POST">
+		<label>Product Name:</label><br>
+		<input type="name" name="name"><br><br>
+		<label>Price:</label><br>
+		<input type="name" name="price"><br><br>
+		<label>Description:</label><br>
+		<input type="name" name="description" style="width: 200px; height: 200px;"><br><br>
+		<label>Upload an image:</label><br>
+		<input type="file" name="image"><br><br>
+		<input type="submit" name="submit">
+	</form><br><br>
+	<div align="center" style="font-size: 14px;">
+		<a href="admin.php">
+			<button style="background-color: orange; border: 1px solid black; border-radius: 25px; width: 100px; height: 50px;">Back</button>
+		</a>
+	</div>
+</section>
+</body>
+</html>

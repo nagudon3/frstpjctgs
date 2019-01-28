@@ -1,0 +1,102 @@
+html
+{
+	background-color: #778899;
+    background-size: cover;
+}
+
+h1 
+{
+	margin-top: 40px;
+    margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 50px;
+    font-family: 'broadway';
+	align-items: center;
+	height: 75px;
+	color: #DAA520;
+	padding-top: 40px;
+	width: 700px;
+}
+
+input.MyButton {
+width: 300px;
+padding: 5px;
+cursor: pointer;
+font-weight: bold;
+font-family: 'Century Schoolbook';
+font-size: 15px;
+background: #32CD32;
+color: #008000;
+border: 1px solid #32CD32;
+border-radius: 10px;
+box-shadow:: 6px 6px 5px #999;
+}
+input.MyButton:hover {
+color:#008000;
+background: #3CB371;
+border: 1px solid #fff;
+}
+
+input.Button {
+width: 300px;
+padding: 5px;
+cursor: pointer;
+font-weight: bold;
+font-family: 'Century Schoolbook';
+font-size: 15px;
+background: #B0C4DE;
+color: #2F4F4F;
+border: 1px solid #B0C4DE;
+border-radius: 10px;
+box-shadow:: 6px 6px 5px #999;
+}
+input.Button:hover {
+color: #2F4F4F;
+background: #FFE4C4;
+border: 1px solid #fff;
+}
+
+input.Mybutton {
+width: 300px;
+padding: 5px;
+cursor: pointer;
+font-weight: bold;
+font-family: 'Century Schoolbook';
+font-size: 15px;
+background: #48D1CC;
+color: #191970;
+border: 1px solid #48D1CC;
+border-radius: 10px;
+box-shadow:: 6px 6px 5px #999;
+}
+input.Mybutton:hover {
+color: #191970;
+background:	#87CEEB;
+border: 1px solid #fff;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+.row 
+{
+  display: flex;
+}
+
+.column 
+{
+  flex: 33.33%;
+  padding: 5px;
+}
+

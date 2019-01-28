@@ -1,0 +1,84 @@
+body {
+    font-family: 'Actor';
+    background-image: url("images/saitama.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+button {
+    background-color:orange;
+    padding: 14px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 70%;
+}
+input[type=text], input[type=checkbox],input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+input [type=file]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+}
+.modal {
+    display: none; 
+    position: 30px; 
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    text-align: center;
+}
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: red;
+    border:1px solid black;
+    border-radius: 25px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: orange;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+#myBtn{
+	background-color: orange;
+	border: 1px solid orange;
+    border-radius: 20px;
+	font-size: 18px;
+	width: 120px;
+	height:50px;
+}
+section{
+    padding: 80px;
+    background-color: rgba(63, 63, 63,0.2);
+}

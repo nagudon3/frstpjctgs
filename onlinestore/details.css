@@ -1,0 +1,141 @@
+body {
+    font-family: 'Actor';
+    background-image: url("images/saitama.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 35px;
+}
+button {
+    background-color:orange;
+    padding: 14px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 70%;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: orange;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+#myBtn{
+	background-color: orange;
+	border: 1px solid orange;
+    border-radius: 20px;
+	font-size: 18px;
+	width: 120px;
+	height:50px;
+}
+.abc{
+    margin: 50px;
+    padding: 40px;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    text-align: left;
+    font-size: 13px;
+    float: left;
+    color: white;
+    background-color: rgba(63, 63, 63,0.2);
+    border: 2px dotted orange;
+    border-radius: 20px;
+}
+img{
+    width: 80px;
+    height: 100px;
+}
+
+.image{
+    text-align: center;
+}
+
+section{
+    padding: 80px;
+    background-color: rgba(63, 63, 63,0.2);
+}
+.buttonCart{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.viewProduct{
+    display: inline-block;
+    float: left;
+}
+.addBtn{
+    text-align: center;
+    margin-top: 20px;
+}
+.proceedBtn{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+}

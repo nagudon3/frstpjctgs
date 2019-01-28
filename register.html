@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+
+<script>
+
+function validateForm() {
+
+var out = "Your unique ID(Please Copy this ID to continue register): ";
+
+    
+     // get
+
+    var x = document.forms["myForm"]["fname"].value;
+    var y = document.forms["myForm"]["lname"].value;
+    var z = document.forms["myForm"]["nric"].value;
+
+    
+    // split into words
+
+    var top = x.split(" ");
+    var middle = y.split(" ");
+    var bottom = z.split(" ");
+
+
+
+       // construct 1st part: initials of first name
+
+    for (var i=0; i<top.length; i++) {
+
+    out = out + top[i].charAt(0);
+    }
+
+        // construct 2nd part: initials of last name
+
+    for (var i=0; i<middle.length; i++) {
+
+    out = out + middle[i].substr(0);
+    }
+
+        // construct the 3rd part: initials of nric
+
+    for (var i=0; i<bottom.length; i++) {
+
+        out = out + bottom[i].charAt(0);
+
+    }
+
+        // replace the last char with the last 4 numbers of nric
+
+    out = out.substr(0, out.length-1);
+    out = out + bottom[bottom.length - 1].substr(8,4);
+
+    
+    if ( isNaN(z)==true || z<1) {
+
+    alert("Please enter identification number!");
+
+    return false;
+    }
+
+        alert(out);
+}
+</script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<body>
+	<div class="header">
+		<h2> Generate Your Unique ID </h2>
+	</div>
+
+
+<form name="myForm" action=""method ="POST" onsubmit="return validateForm()">
+
+
+<div class = "input-group">
+	<label>First Name </label>
+ <input type="text" name="fname" required></br>
+</div>
+<div class = "input-group">
+	<label>Last Name </label>
+ <input type="text" name="lname" required></br>
+</div>
+<div class = "input-group">
+	<label>NRIC </label>
+ <input type="text" name="nric"></br>
+</div>
+
+<div class ="input-group">
+	<input type="submit" value="Submit"></br>
+</div>
+<div class = "input-group">
+	<button onclick="window.location.href='register.php'" class="btn">Continue Register</button>
+</div>
+
+
+
+<p id="output"></p>
+
+
+
+</form>
+
+
+
+</body>
+
+</html>

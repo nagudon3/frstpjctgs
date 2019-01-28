@@ -1,0 +1,168 @@
+.header {
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        height: 200px;
+        color:white;
+        background-color: pink;
+        padding-top: 30px;
+        width: 500px;
+        border-radius: 20%;
+}
+.header h1{
+        display: inline;
+        padding:40px;
+        font-size: 40px;
+        font-family: 'Codystar';
+        border-radius: 20%;
+
+}
+
+.photo{
+        float:right; margin: -30px 0 0 0;
+        border-radius: 50%;
+}
+
+.t_contact {
+    width: 90%;
+    border: 2px dotted;
+    border-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+
+
+
+}
+
+.contact{
+        
+        
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        height: 200px;
+        color:black;
+        background-color: pink;
+        padding-top: 30px;
+        width: 500px;
+        border-radius: 20%;
+
+
+}
+
+.t_contact th{
+    border: 1px solid black;
+    color: black;
+    background-color: gray;
+}
+
+.t_contact td{
+    margin-left: 20px;
+    border: 0.5px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.t_location td{
+    border: 0.1em solid;
+        text-align: center;
+        margin-right: 150px;
+        width: 10em;
+        padding: 1em;
+        background-color: #d8ffc4;
+}
+ .t_location th{
+    border:0.1em solid;
+        text-align: center;
+        margin-right: 150px;
+        width: 10em;
+        padding: 1em;
+        background-color: #ededed;
+
+ 
+ }
+
+
+ .t_profiles {
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #d8ffc4;
+    text-align: center;
+ }
+
+.t_eds {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.t_eds td{
+    text-align: left;
+    padding: 8px;
+    background-color: #ededed
+}
+.t_eds th{
+    text-align: left;
+    padding: 8px;
+     background-color: #d8ffc4;
+    color: black;
+}
+
+*       {
+         margin: 0px;
+         padding: 10px;
+        }
+ body {
+        font: 16px Helvetica, Sans-Serif;
+        line-height: 24px;
+        background: url("1.jpg") no-repeat center center fixed;
+        background-size: cover;
+        margin: 10px, 0, 10px, 0;
+        padding: 100px;
+        border: 15px solid black;
+ }
+
+
+
+
+div.location
+{
+        display: grid;
+        grid-template-columns: 40% 50%;
+}
+div.profiles
+{
+
+        display: grid;
+        grid-template-columns: 40% 50%;
+}
+div.education
+{
+        display: grid;
+        grid-template-columns: 40% 50%;
+}
+
+h3{
+    text-align: center;
+}
+
+.interest, .references, .works, .awards, .skills, .language{
+    text-align: center;
+}
+
+ol li {
+
+    background: #cce5ff;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul li{
+    background: #cce5ff;
+    margin: 5px;
+}

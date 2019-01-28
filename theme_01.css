@@ -1,0 +1,310 @@
+body{
+	font-family: "Courier New", Courier, monospace;
+	background: url("228044680-minimalist-4k-wallpaper.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-size: 15px;
+}
+section{
+	background-color: rgba(245, 183, 177, 0.5);
+	padding: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	border:1px;
+	border-style: dotted;
+	border-color: white;
+}
+span{
+	color: yellow;
+	text-decoration: underline;
+}
+.icon{
+	width: 20px;
+	height: 20px;
+}
+.iconbig{
+	width: 30px;
+	height: 30px;
+}
+h3{
+	text-align: center;
+	font-size: 21px;
+}
+.header{
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	align-items: center;
+	height: 200px;
+	color: white;
+	background-color: rgba(250, 128, 114,0.5);
+	padding-top: 30px;
+	width: 700px;
+	border-style: dotted;
+	border-radius: 5%;
+}
+.header h1 {
+   padding: 40px;
+   font-size: 40px;
+   font-family: 'Codystar';
+   border-radius: 20%;
+
+}
+.header img{
+	float: left;
+}
+
+.photo{
+	border-radius: 40%;
+	margin-left: 30px;
+}
+.contact{
+	padding: 30px;
+	margin: 30px;
+	color: black;
+	float: left;
+	border:1px;
+	background-color: rgba(245, 183, 177, 0.5);
+	margin-left: 20px;
+	color: white;
+	border-radius:30%;
+}
+.vision{
+	margin: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 120px;
+	border: 1px solid black;
+	background-color: rgba(255,165,0, 0.7);
+	box-shadow: 5px 8px rgb(255,165,0);
+	padding: 30px;
+	display: block;
+	color: black;
+
+}
+#p_mission{
+	font-size: 16px;
+	text-align: left;
+}
+
+.location{
+	background-color: yellow;
+	padding: 10px;
+	height: 60%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(87, 77, 80, 0.5);
+	border:1px solid white;
+	box-shadow: 5px 8px rgba(87, 77, 80, 1);
+}
+.location h3{
+	color: black;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.t_location{
+	width: 100%;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+.profiles{
+	margin-top: 40px;
+	margin-bottom: 40px; 
+	margin-left: auto;
+	margin-right: auto;
+	height: 120px;
+	border: 1px solid black;
+	background-color: rgba(255,165,0, 0.7);
+	box-shadow: 5px 8px rgb(255,165,0);
+	padding: 30px;
+	display: block;
+
+}
+.profiles h3{
+	color:white;
+	margin-top: 10px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.t_profiles{
+	width: 90%;
+	border: 2px dotted;
+	border-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+
+}
+.t_profiles th{
+	color: black;
+	background-color: gray;
+}
+.t_profiles td{
+	margin-left: 20px;
+	padding: 10px;
+	text-align: center;
+}
+.education{
+	padding: 20px;
+	height: 60%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(87, 77, 80, 0.5);
+	color: white;
+	border:1px solid white;
+	box-shadow: 5px 8px rgba(87, 77, 80, 1);
+}
+.education h3{
+	width: 40%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+}
+.t_eds{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.t_eds td{
+	border: 1px solid black;
+	padding: 10px;
+}
+.t_eds th{
+	border: 1px solid black;
+	padding: 5px;
+	background-color: orange;
+	color: black;
+}
+.works{
+	margin: auto;
+	height: auto;
+	border: 1px solid black;
+	background-color: rgba(255,165,0, 0.7);
+	box-shadow: 5px 8px rgb(255,165,0);
+	padding: 30px;
+	display: block;
+	color: black;
+}
+.works h3{
+	color:white;
+	margin-top: 10px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.awards{
+	display: flex;
+	flex-direction: column;
+	float: left;
+	padding: 20px;
+	width: 50%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-right: auto;
+	color: white;
+
+}
+.awards h3{
+	color: black;
+	width: 60%;
+}
+.skills{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: auto;
+	border: 1px solid black;
+	background-color: rgba(87, 77, 80, 0.8);
+	box-shadow: 5px 8px rgb(255,165,0);
+	padding: 30px;
+	display: block;
+	color: black;	
+	border: 1px solid white;
+	box-shadow: 5px 8px rgba(87, 77, 80, 1);
+}
+.skills h3{
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+}
+.language{
+	border: 1px solid black;
+	background-color: rgba(255,165,0, 0.7);
+	box-shadow: 5px 8px rgb(255,165,0);
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: black;
+	display: grid;
+	grid-gap: 45px;
+	float: left;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.language h3{
+	color: white;
+}
+.language small{
+	color: blue;
+	font-family: "Lucida Console", Monaco, monospace
+}
+.interest{
+	margin-left: 40px;
+	margin-right: auto;
+	margin-top: 10px;
+	display: inline-grid;
+	background-color: rgba(87, 77, 80, 0.8);	
+	border: 1px solid white;
+	box-shadow: 5px 8px rgba(87, 77, 80, 1);
+	width: 60%;
+}
+.interest h3{
+	color: black;
+	width: 40%;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.references{
+	display: grid;
+	grid-gap: 10px;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: auto;
+	display: inline-grid;
+	background-color: rgba(87, 77, 80, 0.8);	
+	border: 1px solid white;
+	box-shadow: 5px 8px rgba(87, 77, 80, 1);
+	width: 60%;
+
+}
+.references h3{
+	color: black;
+	width: 40%;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.references li{
+	margin-left: 10px;
+	font-size: 15px;
+	align-content: : center;
+}
+.references p{
+	font-size: 13px;
+	margin-left: 10px;
+}
